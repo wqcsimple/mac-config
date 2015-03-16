@@ -21,6 +21,11 @@ set smarttab
 set tabstop=4
 set shiftwidth=2
 
+set laststatus=2        "始终显示状态栏
+set ignorecase          "检索时忽略大小写
+set helplang=cn         "帮助系统设置为中文
+
+
 set t_Co=8              " number of colors
 set t_Sf=[1;3%p1%dm   " set foreground color
 set t_Sb=[1;4%p1%dm   " set background color
