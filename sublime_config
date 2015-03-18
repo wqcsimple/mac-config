@@ -1,0 +1,24 @@
+{
+  "font_size": 15,
+  "highlight_line": true,
+  "save_on_focus_lost": true,
+  "show_encoding": true,
+  "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": false,
+    "rulers": [80],
+    "spell_check": false,
+    "scroll_past_end": true,
+    "draw_white_space": "all",
+    "bold_folder_labels": true,
+    "show_full_path": true,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "show_line_endings": true,
+    "ignored_packages":
+    [
+        ".DS_Store"
+    ],
+    "close_windows_when_empty": true,
+}
+
