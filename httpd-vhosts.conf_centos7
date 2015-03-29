@@ -1,0 +1,10 @@
+NameVirtualHost *:80
+      
+<VirtualHost *:80>
+      DocumentRoot /opt/htdocs/html
+      ServerName html
+</VirtualHost>
+<VirtualHost *:80>
+      DocumentRoot /opt/htdocs/test
+      ServerName test
+</VirtualHost>
