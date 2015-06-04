@@ -22,6 +22,6 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 ------ END LICENSE ------
 
 4. sublime text3 常用插件
- - JSFormat javascript格式化插件 
-> 使用：在已压缩的JS文件中，右键选择jsFormat或者使用默认快捷键（Ctrl+Alt+F）
+ 1. JSFormat javascript格式化插件 
+>` 使用：在已压缩的JS文件中，右键选择jsFormat或者使用默认快捷键（Ctrl+Alt+F）`
 
