@@ -8,7 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME="robbyrussell"
 
 #ZSH_THEME="edvardm"            
-ZSH_THEME="juanghurtado"            
+ZSH_THEME="bureau" 
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -99,4 +99,7 @@ alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 alias scr='screen -U'
+alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+export PATH="/usr/local/sbin:$PATH"
+#export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
