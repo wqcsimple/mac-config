@@ -24,9 +24,10 @@ set shiftwidth=2
 set laststatus=2        "始终显示状态栏
 set ignorecase          "检索时忽略大小写
 set helplang=cn         "帮助系统设置为中文
+set mouse=a             "设置鼠标滚动"
+set whichwrap=b,s,<,>,[,]  "让退格，空格，上下箭头遇到行首行尾时自动移到下一行（包括insert模式）
 
-
-set t_Co=8              " number of colors
+set t_Co=256              " number of colors
 set t_Sf=[1;3%p1%dm   " set foreground color
 set t_Sb=[1;4%p1%dm   " set background color
 set showcmd             " show command
@@ -102,7 +103,6 @@ inoremap <TAB> <C-R>=InsertTabWrapper()<CR>
 imap <C-t>t <!--{}--><LEFT><LEFT><LEFT><LEFT>
 
 set nu
-set background=dark
-"  高亮现实当前行/列
+set background=dark   "高亮现实当前行/列
 set cursorline
 set cursorcolumn
