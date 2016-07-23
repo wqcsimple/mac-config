@@ -100,6 +100,9 @@ alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 alias scr='screen -U'
 alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
+alias python="/usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/bin/python3.5"
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 export PATH="/usr/local/sbin:$PATH"
 #export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
+JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export JAVA_HOME
