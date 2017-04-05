@@ -1,12 +1,16 @@
 1. 让终端和Finder显示目录路径
+```
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 killall Finder
+```
 
 2. mac关闭自动生成DS_store
-defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+
+`defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE`
 
 
 3. sublime text3许可证
+```
 ----- BEGIN LICENSE -----
 Andrew Weber
 Single User License
@@ -20,8 +24,9 @@ E1D0AE85 A0BBD039 0E9C8D55 E1B89D5D
 5CDB7036 E56DE1C0 EFCC0840 650CD3A6
 B98FC99C 8FAC73EE D2B95564 DF450523
 ------ END LICENSE ------
+```
 
 4. sublime text3 常用插件
- 1. JSFormat javascript格式化插件 
+ 1. JSFormat javascript格式化插件
 >` 使用：在已压缩的JS文件中，右键选择jsFormat或者使用默认快捷键（Ctrl+Alt+F）`
 
