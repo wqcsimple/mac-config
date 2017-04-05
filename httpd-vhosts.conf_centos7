@@ -1,10 +1,20 @@
-NameVirtualHost *:80
-      
-<VirtualHost *:80>
-      DocumentRoot /opt/htdocs/html
-      ServerName html
+NameVirtualHost *:8000
+
+
+<VirtualHost *:8001>
+  DocumentRoot "/opt/htdocs/milk"
+  ServerName sxmiaosi.com
 </VirtualHost>
-<VirtualHost *:80>
-      DocumentRoot /opt/htdocs/test
-      ServerName test
+<VirtualHost *:8010>
+  DocumentRoot "/opt/app/whis/blog"
+  ServerName whis.wang
+</VirtualHost>
+# https 证书配置
+<VirtualHost whis.wang:443>
+    DocumentRoot "/opt/app/whis/blog"
+    ServerName whis.wang
+    SSLEngine on
+    SSLCertificateFile /opt/script/ssl/Apache/2_whis.wang.crt
+    SSLCertificateKeyFile /opt/script/ssl/Apache/3_whis.wang.key
+    SSLCertificateChainFile /opt/script/ssl/Apache/1_root_bundle.crt
 </VirtualHost>
