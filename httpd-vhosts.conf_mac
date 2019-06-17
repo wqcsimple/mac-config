@@ -7,7 +7,7 @@
 # use only name-based virtual hosts so the server doesn't need to worry about
 # IP addresses. This is indicated by the asterisks in the directives below.
 #
-# Please see the documentation at
+# Please see the documentation at 
 # <URL:http://httpd.apache.org/docs/2.4/vhosts/>
 # for further details before you try to setup virtual hosts.
 #
@@ -29,7 +29,88 @@
 #    CustomLog "/private/var/log/apache2/dummy-host.example.com-access_log" common
 #</VirtualHost>
 
+
+#<VirtualHost *:80>
+#    DocumentRoot "/Users/whis/Workspace/yms/yms-api/web"
+#    ServerName localhost
+#</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/htdocs"
+    ServerName localhost
+</VirtualHost>
 <VirtualHost *:80>
     DocumentRoot "/Users/whis/Workspace"
     ServerName test
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/phpRedisAdmin"
+    ServerName pra
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/phpMyAdmin"
+    ServerName pma
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/yuntick/smartwork-hrm-api/web"
+    ServerName hrm.api
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/yuntick/smartwork-base-api/web"
+    ServerName wx-api
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/yuntu/yunto-api/web"
+    ServerName yunto.api
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/yuntu/tms-api/web"
+    ServerName tms.api
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/yms/yms-api/web"
+    ServerName yms.api
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/faycms/tzcs"
+    ServerName tzcs
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/faycms/faycms-demo/public"
+    ServerName faycms
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/faycms/faycms-ypc-gh/public"
+    ServerName faycms-gh
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/whis/data-collection/web"
+    ServerName dc
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/whis/static-upload/web"
+    ServerName static.upload
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/pts/pts-wx-api/web"
+    ServerName pts-wx-api
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/beest/besst-api/web"
+    ServerName besst-api
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/whis/otaku/web"
+    ServerName otaku
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/whis/bookmarks-api-whis/web"
+    ServerName bm.api
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/whis/whis-blog"
+    ServerName whis
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "/Users/whis/Workspace/test/caiji"
+    ServerName caiji
 </VirtualHost>
